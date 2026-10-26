@@ -1,0 +1,20 @@
+[
+  {"title": "🤖 Claude Code, AI ajanları & skill'ler", "description": "Skill'ler, plugin'ler, MCP server'lar, AI ajanları ve kodlama ajanını güçlendiren araçlar",
+   "repos": [3, 4, 7, 9, 35, 53, 60, 61, 63, 64, 66, 72, 78, 80, 81, 85, 86, 87, 94, 95, 98, 101, 103, 107, 108, 109, 112, 113, 115, 119, 121, 122, 123, 124, 125, 128, 132]},
+  {"title": "🧠 AI modelleri & local AI", "description": "Kendi bilgisayarında çalışan modeller, ses ve görüntü AI'ı, LLM'ler için doküman araçları",
+   "repos": [25, 28, 37, 41, 50, 69, 70, 73, 74, 83, 84, 89, 92, 105, 111, 120]},
+  {"title": "💸 Açık kaynak alternatifler & self-hosted uygulamalar", "description": "Notion, Jira, Google Photos, DocuSign... yerine ücretsiz ve kendi sunucunda çalışan seçenekler",
+   "repos": [2, 8, 11, 15, 22, 31, 44, 52, 57, 58, 67, 71, 77, 79, 110, 114, 131, 135]},
+  {"title": "🎬 Video, ses & tasarım araçları", "description": "Video editörleri, kodla video üretimi, müzik, sunum ve tasarım",
+   "repos": [1, 12, 36, 55, 68, 102, 104, 117, 126, 129, 130, 133, 134]},
+  {"title": "🎨 UI bileşenleri & web animasyonu", "description": "React/Tailwind bileşenleri, animasyon kütüphaneleri, editörler",
+   "repos": [5, 6, 14, 18, 20, 21, 27, 29, 32, 34, 39, 45, 54, 106]},
+  {"title": "📊 Grafik, 3D & oyun", "description": "Veri görselleştirme, 3D, 2D çizim ve oyun motorları",
+   "repos": [33, 38, 40, 46, 49, 75, 76, 88, 90]},
+  {"title": "🛠️ Backend, DevOps, test & izleme", "description": "CMS, deployment, test otomasyonu, monitoring ve güvenlik",
+   "repos": [23, 26, 30, 42, 43, 47, 48, 51, 56, 59, 93, 96, 97, 116, 118, 127]},
+  {"title": "📚 Öğrenme & kaynak listeleri", "description": "Ders, prompt, fikir ve ücretsiz araç listeleri",
+   "repos": [10, 13, 16, 19, 24, 62, 91]},
+  {"title": "🧩 Diğer", "description": "Terminal, Linux, programlama dili ve donanım",
+   "repos": [17, 65, 82, 99]}
+]

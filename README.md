@@ -17,7 +17,243 @@ Liste düzenli olarak güncellenmeyebilir. Yeni paylaşılan repoları kaçırma
 
 YouTube Shorts oynatma listesi: <https://www.youtube.com/playlist?list=PL0ncE8cDf6er2ROEPVllGTmmVz84zq0g7>
 
-## Liste
+## Aradığını hızlı bul
+
+- **Short'taki numarayı biliyorsan** (ör. *Part 135*): en alttaki [Tüm liste](#tüm-liste-numaraya-göre) bölümünü aç, liste numara sırasıyla.
+- **Repo adını hatırlıyorsan:** `Ctrl+F` / `Cmd+F` ile adını ara (ör. `remotion`).
+- **Konuya göre bakıyorsan:** aşağıdaki kategorilerden birine tıkla. Her kategoride en yeni repolar en üstte.
+
+## Kategoriler
+
+- [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (37)
+- [🧠 AI modelleri & local AI](#-ai-modelleri--local-ai) (16)
+- [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (18)
+- [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (13)
+- [🎨 UI bileşenleri & web animasyonu](#-ui-bileşenleri--web-animasyonu) (14)
+- [📊 Grafik, 3D & oyun](#-grafik-3d--oyun) (9)
+- [🛠️ Backend, DevOps, test & izleme](#-backend-devops-test--izleme) (16)
+- [📚 Öğrenme & kaynak listeleri](#-öğrenme--kaynak-listeleri) (7)
+- [🧩 Diğer](#-diğer) (4)
+
+## 🤖 Claude Code, AI ajanları & skill'ler
+
+_Skill'ler, plugin'ler, MCP server'lar, AI ajanları ve kodlama ajanını güçlendiren araçlar_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 132 | `morluto/rea` | Kaynak kodu olmadan bir uygulamanın nasıl çalıştığını AI ajanına çözdüren reverse engineering aracı: MCP ile Claude Code/Codex/Cursor/Gemini CLI'a bağlanıyor, exe, Electron, web sitesi ve Android APK inceliyor, Ghidra/Hopper/IDA kullanıyor, bulguları kanıtıyla sunuyor, analiz yerelde | [Repo](https://github.com/morluto/rea) | [İzle](https://www.youtube.com/shorts/SEwiWBdwAYk) |  |
+| 128 | `NVIDIA/SkillSpector` | AI agent skill'lerini yüklemeden önce tarayan NVIDIA'nın açık kaynak güvenlik tarayıcısı: prompt injection, gizli komut ve veri sızdırma tespiti, 17 kategoride kontrol, statik + opsiyonel LLM analizi, 0-100 risk skoru, MCP ile Claude Code'a bağlanıyor | [Repo](https://github.com/NVIDIA/SkillSpector) | [İzle](https://www.youtube.com/shorts/RTk9IzZCm3I) |  |
+| 125 | `diegosouzapw/OmniRoute` | Ücretsiz açık kaynak AI gateway: tek endpoint arkasında 352 sağlayıcı (154'ü ücretsiz katmanlı), kota bitince otomatik fallback, Claude Code/Codex/Cursor/Cline uyumlu, %15-95 token tasarrufu sağlayan sıkıştırma | [Repo](https://github.com/diegosouzapw/OmniRoute) | [İzle](https://www.youtube.com/shorts/Doq6a6eHKf4) |  |
+| 124 | `Kronop/vibe-aso` | iOS uygulamanın App Store optimizasyonunu baştan sona yapan Claude Code skill'i: anahtar kelime araştırması, 50 dile kadar mağaza metni, çevrilmiş ekran görüntüleri, ülkeye göre fiyatlandırma ve uygulama içi metin çevirisi | [Repo](https://github.com/Kronop/vibe-aso) | [İzle](https://www.youtube.com/shorts/u1z2feSfXB8) |  |
+| 123 | `cathrynlavery/diagram-design` | Claude Code, Codex ve Pi için editöryel diyagram skill'i: 27 tip, tek dosya HTML + SVG, sitenin URL'inden marka renk ve fontunu çekiyor, draw.io ve Mermaid dosyalarını yeniden çiziyor | [Repo](https://github.com/cathrynlavery/diagram-design) | [İzle](https://www.youtube.com/shorts/HPNGNGllDUg) |  |
+| 122 | `mvanhorn/last30days-skill` | Bir konu hakkında son 30 günde ne konuşulduğunu tek raporda topluyor: Reddit, X, YouTube (tam transcript), TikTok, HN, GitHub ve Polymarket oranlarını paralel tarayıp upvote/like/gerçek para sinyaline göre sıralıyor | [Repo](https://github.com/mvanhorn/last30days-skill) | [İzle](https://www.youtube.com/shorts/KZZr5SoBbzo) |  |
+| 121 | `Graphify-Labs/graphify` | Kod tabanını tek komutla bilgi grafiğine çeviriyor: AI asistanın grep yerine grafikte geziyor, token kullanımı 70 kata kadar düşüyor, vektör veritabanı yok | [Repo](https://github.com/Graphify-Labs/graphify) | [İzle](https://www.youtube.com/shorts/y4VLxJY0JbU) |  |
+| 119 | `bradautomates/claude-video` | Claude'a video izletme skill'i: /watch komutuyla videoyu indirir, kareleri çıkarır, sesi transkribe eder; 50+ kaynak + yerel dosya desteği | [Repo](https://github.com/bradautomates/claude-video) | [İzle](https://www.youtube.com/shorts/pkJkn0TyGQc) |  |
+| 115 | `addyosmani/agent-skills` | AI kodlama ajanına kıdemli mühendis gibi çalışmayı öğreten 24 production-grade skill: spec/plan/build/test/ship slash komutları, 4 uzman ajan, çoklu araç desteği | [Repo](https://github.com/addyosmani/agent-skills) | [İzle](https://www.youtube.com/shorts/Kg7eV4wv_3A) |  |
+| 113 | `wentong2022-arch/flowforge-skill` | Doğal dilden profesyonel draw.io diyagramı üreten Claude Code skill'i: 11 yerleşim algoritması, 5 renk teması, önce ASCII önizleme sonra düzenlenebilir .drawio çıktısı | [Repo](https://github.com/wentong2022-arch/flowforge-skill) | [İzle](https://www.youtube.com/shorts/0r_6gbFup7o) |  |
+| 112 | `microsoft/Webwright` | Kodlama modeline terminal veren tarayıcı ajanı framework'ü: web görevini Python script ile çözer, ~1.5k satır, OpenAI/Anthropic/OpenRouter + Playwright, Claude Code & Codex eklentisi | [Repo](https://github.com/microsoft/Webwright) | [İzle](https://www.youtube.com/shorts/yv7toIYKwyU) |  |
+| 109 | `Imbad0202/academic-research-skills` | Claude Code için baştan sona akademik makale hattı: 13 ajanlık derin araştırma, 7 ajanlık peer review, sahte referansları yakalayan bütünlük kontrolleri | [Repo](https://github.com/Imbad0202/academic-research-skills) | [İzle](https://www.youtube.com/shorts/sBfFvR0mqvw) |  |
+| 108 | `multica-ai/andrej-karpathy-skills` | Karpathy'nin LLM kodlama hatası gözlemlerinden türetilmiş, Claude Code davranışını değiştiren tek CLAUDE.md dosyası | [Repo](https://github.com/multica-ai/andrej-karpathy-skills) | [İzle](https://www.youtube.com/shorts/PcKAzOTRIVs) |  |
+| 107 | `anthropics/claude-for-legal` | Avukatlar için Anthropic'in resmi Claude eklenti seti: 80+ hazır hukuk ajanı, 10 alan için plugin, Ironclad/DocuSign/iManage entegrasyonu | [Repo](https://github.com/anthropics/claude-for-legal) | [İzle](https://www.youtube.com/shorts/U2htXwSmLR0) |  |
+| 103 | `mksglu/context-mode` | AI kodlama ajanlarının context window'unu %98'e kadar küçülten, 14 platformda çalışan sandbox tabanlı MCP server | [Repo](https://github.com/mksglu/context-mode) | [İzle](https://www.youtube.com/shorts/zdwAXTaxL5Y) |  |
+| 101 | `ruvnet/ruflo` | Claude Code'u 100+ ajanlı, swarm koordinasyonlu multi-agent orkestrasyon platformuna çeviren açık kaynak framework | [Repo](https://github.com/ruvnet/ruflo) | [İzle](https://www.youtube.com/shorts/WBHS2zYuXLM) |  |
+| 98 | `ComposioHQ/awesome-codex-skills` | Codex CLI'a code review, Sentry, Linear/Jira triage, Notion, Datadog gibi onlarca alanda hazır skill paketleri yükleyebileceğin curated koleksiyon | [Repo](https://github.com/ComposioHQ/awesome-codex-skills) | [İzle](https://www.youtube.com/shorts/hSb1TAXAwTA) |  |
+| 95 | `octopusreview/octopus` | GitHub ve Bitbucket PR'larını Claude veya OpenAI ile otomatik inceleyen, codebase'i vektör veritabanına indexleyip severity'li inline yorumlar bırakan açık kaynak, self-hosted AI code review aracı | [Repo](https://github.com/octopusreview/octopus) | [İzle](https://www.youtube.com/shorts/3vpDdeP6P-0) |  |
+| 94 | `0xNyk/council-of-high-intelligence` | 18 AI dahi, senin en zor kararını tartışıyor | [Repo](https://github.com/0xNyk/council-of-high-intelligence) | [İzle](https://www.youtube.com/shorts/A4qFfBi9fyo) |  |
+| 87 | `openai/codex-plugin-cc` | Claude Code içinden Codex ile code review alıp görev delege etmeni sağlayan açık kaynak plugin | [Repo](https://github.com/openai/codex-plugin-cc) | [İzle](https://www.youtube.com/shorts/uISmT8Bv4Fo) |  |
+| 86 | `NousResearch/hermes-agent` | Kendi sunucunda çalışan, kullandıkça öğrenip skill oluşturan ve Telegram, Discord, Slack, WhatsApp, Signal ile terminal arasında aynı konuşmayı sürdüren açık kaynak AI agent platformu | [Repo](https://github.com/NousResearch/hermes-agent) | [İzle](https://www.youtube.com/shorts/iYEEqgIXvsc) |  |
+| 85 | `openclaw/openclaw` | Kendi bilgisayarında ya da sunucunda çalışan, dosya sistemi, terminal ve bilgisayar kullanımıyla gerçek işler yapabilen açık kaynak bir AI agent | [Repo](https://github.com/openclaw/openclaw) | [İzle](https://www.youtube.com/shorts/76xmbQI-gAo) |  |
+| 81 | `garrytan/gstack` | Claude Code'u rol bazlı bir sanal mühendislik ekibine dönüştürüp review, QA, güvenlik ve deploy gibi süreçleri slash komutlarıyla yönetmeni sağlıyor | [Repo](https://github.com/garrytan/gstack) | [İzle](https://www.youtube.com/shorts/HB3hNzdIa6o) |  |
+| 80 | `shanraisshan/claude-code-best-practice` | Claude Code'u daha profesyonel kullanmak için subagent, komut, CLAUDE.md optimizasyonu ve orchestration workflow'leri üzerine detaylı best practice rehberi | [Repo](https://github.com/shanraisshan/claude-code-best-practice) | [İzle](https://www.youtube.com/shorts/cToXyrYtFTs) |  |
+| 78 | `iamlukethedev/Claw3D` | AI agent'ları 3D retro bir ofis içinde gerçek zamanlı izleyip standup, PR ve görev akışını görsel olarak yönetmeni sağlıyor | [Repo](https://github.com/iamlukethedev/Claw3D) | [İzle](https://www.youtube.com/shorts/zGIc4HjEBQQ) |  |
+| 72 | `Donchitos/Claude-Code-Game-Studios` | Solo oyun geliştiriciler için AI ajanlarla yapılandırılmış bir studio sistemi sunuyor | [Repo](https://github.com/Donchitos/Claude-Code-Game-Studios) | [İzle](https://www.youtube.com/shorts/a6jHSWdIvf0) |  |
+| 66 | `HKUDS/CLI-Anything` | AI agent'lara CLI araçlarını kullandırtmak için tasarlanmış bir sistem sunuyor | [Repo](https://github.com/HKUDS/CLI-Anything) | [İzle](https://www.youtube.com/shorts/NYx647nbybw) |  |
+| 64 | `obra/superpowers` | AI coding agent'lar için planlama ve iş akışı superpower'ları ekliyor | [Repo](https://github.com/obra/superpowers) | [İzle](https://www.youtube.com/shorts/uSbLXkV0tl4) | [İzle](https://www.youtube.com/watch?v=LTO43rpjYVg) |
+| 63 | `msitarzewski/agency-agents` | Birden fazla AI agent'ı ekip gibi yönetmeye yarayan bir framework sunuyor | [Repo](https://github.com/msitarzewski/agency-agents) | [İzle](https://www.youtube.com/shorts/eTrgWvRYdNE) |  |
+| 61 | `coreyhaines31/marketingskills` | Yazılım ürünü geliştirenler için marketing becerileri ve kaynaklarını topluyor | [Repo](https://github.com/coreyhaines31/marketingskills) | [İzle](https://www.youtube.com/shorts/dE4hFAW9cpk) |  |
+| 60 | `addyosmani/web-quality-skills` | Web kalite, performans ve Lighthouse tarafında kendini geliştirmen için kaynak sunuyor | [Repo](https://github.com/addyosmani/web-quality-skills) | [İzle](https://www.youtube.com/shorts/vkKtohvoBS8) |  |
+| 53 | `gsd-build/get-shit-done` | AI coding akışını daha planlı ve görev odaklı hale getirmeye yardım ediyor | [Repo](https://github.com/gsd-build/get-shit-done) | [İzle](https://www.youtube.com/shorts/hxUSmmj7Qek) | [İzle](https://www.youtube.com/watch?v=Sf2qWjUsgME) |
+| 35 | `upstash/context7` | AI kod asistanlarına güncel dokümantasyon bağlamı veriyor | [Repo](https://github.com/upstash/context7) | [İzle](https://www.youtube.com/shorts/d8-m2nxVOl4) |  |
+| 9 | `davila7/claude-code-templates` | Claude Code'u ayarlayarak vakit kaybetme, hazır template'lerle başla | [Repo](https://github.com/davila7/claude-code-templates) | [İzle](https://www.youtube.com/shorts/jPbbBv5_9Es) |  |
+| 7 | `anomalyco/opencode` | Claude Code'a para verme, OpenCode kullan | [Repo](https://github.com/anomalyco/opencode) | [İzle](https://www.youtube.com/shorts/FusX3vVlFlQ) |  |
+| 4 | `thedotmack/claude-mem` | Claude Code'un seni hatırlamasını ister misin? | [Repo](https://github.com/thedotmack/claude-mem) | [İzle](https://www.youtube.com/shorts/hPKyPjy505s) |  |
+| 3 | `BloopAI/vibe-kanban` | Claude Code'u 10 kat verimli kullanmak ister misin? | [Repo](https://github.com/BloopAI/vibe-kanban) | [İzle](https://www.youtube.com/shorts/4VSJbVoeJRA) |  |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## 🧠 AI modelleri & local AI
+
+_Kendi bilgisayarında çalışan modeller, ses ve görüntü AI'ı, LLM'ler için doküman araçları_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 120 | `firecrawl/pdf-inspector` | Rust ile yazılmış hızlı PDF ayrıştırıcı: PDF tipini 10-50ms'de sınıflandırıp metin tabanlı olanları OCR'sız temiz Markdown'a çeviriyor; API key yok, Python/Node/Rust/WASM | [Repo](https://github.com/firecrawl/pdf-inspector) | [İzle](https://www.youtube.com/shorts/NcU_sQ_HVes) |  |
+| 111 | `gradio-app/gradio` | Birkaç satır Python ile ML modeline web arayüzü kur, public link al, Hugging Face Spaces'e ücretsiz deploy et | [Repo](https://github.com/gradio-app/gradio) | [İzle](https://www.youtube.com/shorts/elTrW5EYYjY) |  |
+| 105 | `jamiepine/voicebox` | Kendi sesli AI stüdyon: 7 TTS motoru, ses klonlama, 23 dilde konuşma üretimi, MCP server ile ajanlara ses veren local-first açık kaynak araç | [Repo](https://github.com/jamiepine/voicebox) | [İzle](https://www.youtube.com/shorts/cSRvZpERzmY) |  |
+| 92 | `openai/whisper` | Çok dilli konuşmayı metne çeviren, transkripsiyon ve çeviri yapabilen açık kaynak speech-to-text modeli | [Repo](https://github.com/openai/whisper) | [İzle](https://www.youtube.com/shorts/X-5ZLxh1yWY) |  |
+| 89 | `microsoft/markitdown` | PDF, Word, Excel, PowerPoint, ses ve görsel gibi dosyaları LLM'ler için temiz Markdown'a dönüştürmeni sağlayan açık kaynak araç | [Repo](https://github.com/microsoft/markitdown) | [İzle](https://www.youtube.com/shorts/NqjHYFCcJss) |  |
+| 84 | `ollama/ollama` | Açık kaynak modelleri kendi bilgisayarında çalıştırmanı sağlayan, OpenAI uyumlu API sunan ve Mac, Windows, Linux ile Docker'da çalışan yerel LLM runtime'ı | [Repo](https://github.com/ollama/ollama) | [İzle](https://www.youtube.com/shorts/jXPcLQuP3hI) |  |
+| 83 | `onyx-dot-app/onyx` | Şirket bilgisini Notion, Slack, Drive ve diğer araçlardan tarayan, self-hosted kurumsal yapay zeka platformu | [Repo](https://github.com/onyx-dot-app/onyx) | [İzle](https://www.youtube.com/shorts/_Kf6-buMx0Q) |  |
+| 74 | `Comfy-Org/ComfyUI` | Node tabanlı workflow ile görsel, video, ses ve 3D üretim pipeline'ları kurmanı sağlıyor | [Repo](https://github.com/Comfy-Org/ComfyUI) | [İzle](https://www.youtube.com/shorts/F7uGTqOmIqY) |  |
+| 73 | `vikhyat/moondream` | Görselleri anlayıp soru-cevap, sayma ve segmentasyon yapabilen hafif bir vision modeli | [Repo](https://github.com/vikhyat/moondream) | [İzle](https://www.youtube.com/shorts/o5zfQZrk9GM) |  |
+| 70 | `thesysdev/openui` | AI chatbot'ların metin yerine UI elementleriyle yanıt üretmesini sağlıyor | [Repo](https://github.com/thesysdev/openui) | [İzle](https://www.youtube.com/shorts/U-tRxMA8PYY) |  |
+| 69 | `AlexsJones/llmfit` | Donanımına göre hangi local LLM modellerinin uygun olduğunu gösteriyor | [Repo](https://github.com/AlexsJones/llmfit) | [İzle](https://www.youtube.com/shorts/_oSM1rr3hKI) |  |
+| 50 | `roboflow/supervision` | Nesne tespiti ve takip projelerinde görsel pipeline kurmanı kolaylaştırıyor | [Repo](https://github.com/roboflow/supervision) | [İzle](https://www.youtube.com/shorts/H3SX2jkAqfQ) |  |
+| 41 | `opencv/opencv` | Bilgisayarlı görü, görüntü işleme ve kamera tabanlı projeler için temel kütüphane | [Repo](https://github.com/opencv/opencv) | [İzle](https://www.youtube.com/shorts/VnXgyQT6mRA) |  |
+| 37 | `HeartMuLa/heartlib` | Açık kaynak müzik üretimi tarafında kullanılan bir model kütüphanesi | [Repo](https://github.com/HeartMuLa/heartlib) | [İzle](https://www.youtube.com/shorts/BKXQcIRfhVE) |  |
+| 28 | `facebookresearch/sam-3d-objects` | Görüntülerden 3D nesne segmentasyonu ve modelleme akışları için kullanılıyor | [Repo](https://github.com/facebookresearch/sam-3d-objects) | [İzle](https://www.youtube.com/shorts/yHrDslPIQFg) |  |
+| 25 | `resemble-ai/chatterbox` | Açık kaynak ses üretimi ve voice AI tarafında kullanabileceğin bir araç | [Repo](https://github.com/resemble-ai/chatterbox) | [İzle](https://www.youtube.com/shorts/MP5eIeQKJDY) |  |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## 💸 Açık kaynak alternatifler & self-hosted uygulamalar
+
+_Notion, Jira, Google Photos, DocuSign... yerine ücretsiz ve kendi sunucunda çalışan seçenekler_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 135 | `KnifeLemon/Filee` | Dosya çevirmek için siteye yükleme devri bitti: Ctrl ile sürükle, imleçte açılan menüde formata bırak; 255 format, Office/LibreOffice gerekmez, offline çalışır, toplu dönüştürme ve izlenen klasörler; Windows, Linux, macOS (önizleme) | [Repo](https://github.com/KnifeLemon/Filee) | [İzle](https://www.youtube.com/shorts/Qb75Ud9cCE4) |  |
+| 131 | `DuarteSantos8/openGym` | Spor uygulamasına abonelik ödemeyi bırak: kendi sunucunda çalışan açık kaynak antrenman ve kilo takipçisi; 1.324 animasyonlu egzersiz, hazır gelen ağırlıklar, kas haritası, opsiyonel AI koç, Strong/Hevy/FitNotes'tan veri aktarımı, passkey ile giriş | [Repo](https://github.com/DuarteSantos8/openGym) | [İzle](https://www.youtube.com/shorts/UE_Q1SG0RoI) |  |
+| 114 | `lfnovo/open-notebook` | NotebookLM'in açık kaynak, gizlilik odaklı alternatifi: PDF/YouTube/web/ses içeriğini anlayıp sohbet et, notları çok konuşmacılı podcast'e çevir, tam metin + anlamsal arama, 18+ AI sağlayıcı, self-hosted | [Repo](https://github.com/lfnovo/open-notebook) | [İzle](https://www.youtube.com/shorts/ft4dkfaoy5I) |  |
+| 110 | `docusealco/docuseal` | DocuSign'a veda et, kendi imza platformunu kur: PDF form builder, 12 alan tipi, 14 dilde imzalama, API + webhook, tek komutla self-hosted | [Repo](https://github.com/docusealco/docuseal) | [İzle](https://www.youtube.com/shorts/E2Go380581c) |  |
+| 79 | `immich-app/immich` | Kendi sunucunda fotoğraf ve videolarını otomatik yedekleyip yüz tanıma, harita görünümü ve AI destekli arama ile yönetmeni sağlayan açık kaynak Google Photos alternatifi | [Repo](https://github.com/immich-app/immich) | [İzle](https://www.youtube.com/shorts/NwmKodNeif8) |  |
+| 77 | `forem/forem` | Kendi developer topluluğunu kurmak için blog, tartışma, profil ve bildirim sistemiyle hazır gelen açık kaynak community platformu | [Repo](https://github.com/forem/forem) | [İzle](https://www.youtube.com/shorts/uIcn3qiA2A4) |  |
+| 71 | `transmute-app/transmute` | Kendi sunucunda dosya dönüştürme işlemlerini gizlilikle yapmanı sağlıyor | [Repo](https://github.com/transmute-app/transmute) | [İzle](https://www.youtube.com/shorts/OEbjciQ9mZI) |  |
+| 67 | `koala73/worldmonitor` | Gerçek zamanlı dünya olaylarını tek panelde takip etmeni sağlıyor | [Repo](https://github.com/koala73/worldmonitor) | [İzle](https://www.youtube.com/shorts/w_fRvbLRWxw) |  |
+| 58 | `gitroomhq/postiz-app` | Sosyal medya içeriklerini planlamak ve yönetmek için açık kaynak bir araç sunuyor | [Repo](https://github.com/gitroomhq/postiz-app) | [İzle](https://www.youtube.com/shorts/b66fksMVR-E) |  |
+| 57 | `chatwoot/chatwoot` | Açık kaynak müşteri destek ve canlı destek platformu sunuyor | [Repo](https://github.com/chatwoot/chatwoot) | [İzle](https://www.youtube.com/shorts/c3_HqgZhLhw) |  |
+| 52 | `umami-software/umami` | Google Analytics'e açık kaynak alternatif sunuyor | [Repo](https://github.com/umami-software/umami) | [İzle](https://www.youtube.com/shorts/CQN7e1TyZZ0) |  |
+| 44 | `AppFlowy-IO/AppFlowy` | Notion'a açık kaynak alternatif sunuyor | [Repo](https://github.com/AppFlowy-IO/AppFlowy) | [İzle](https://www.youtube.com/shorts/PFyHByPIAX8) |  |
+| 31 | `twentyhq/twenty` | Açık kaynak bir CRM | [Repo](https://github.com/twentyhq/twenty) | [İzle](https://www.youtube.com/shorts/ExHW20LZHkE) |  |
+| 22 | `webstudio-is/webstudio` | Açık kaynak bir website builder sunuyor | [Repo](https://github.com/webstudio-is/webstudio) | [İzle](https://www.youtube.com/shorts/JAYIYaOt4Hg) |  |
+| 15 | `usememos/memos` | Kendi kendine host edebileceğin hafif bir not alma ve ikinci beyin uygulaması | [Repo](https://github.com/usememos/memos) | [İzle](https://www.youtube.com/shorts/syps1rgflEk) |  |
+| 11 | `tw93/Mole` | CleanMyMac'e para vermeyi bırak | [Repo](https://github.com/tw93/Mole) | [İzle](https://www.youtube.com/shorts/U3spvzJA52M) |  |
+| 8 | `makeplane/plane` | Jira'ya para vermeyi bırak, Plane kullan | [Repo](https://github.com/makeplane/plane) | [İzle](https://www.youtube.com/shorts/OJ1gc5nJmTY) |  |
+| 2 | `nocodb/nocodb` | Airtable'a para verme, NocoDB kullan | [Repo](https://github.com/nocodb/nocodb) | [İzle](https://www.youtube.com/shorts/cGJXyr4PbKU) | [İzle](https://www.youtube.com/watch?v=gI99OYFUfkA) |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## 🎬 Video, ses & tasarım araçları
+
+_Video editörleri, kodla video üretimi, müzik, sunum ve tasarım_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 134 | `storytold/filmcraft` | Premiere'e para verme, FilmCraft kullan: Rust ile sıfırdan yazılmış açık kaynak video editörü; Premiere panelleri ve kısayolları, FFmpeg'siz kendi codec'leri, renk düzenleme ve scope'lar, yayın standardında ses ölçer, MCP ile AI ajan desteği; macOS/Windows/Linux ve tarayıcı; şu an alpha | [Repo](https://github.com/storytold/filmcraft) | [İzle](https://www.youtube.com/shorts/x-SdyIByl-4) |  |
+| 133 | `heygen-com/hyperframes` | AI ajanın artık video da çekiyor: HeyGen'in açık kaynak framework'ü; HTML yaz, MP4 video al, React ve build adımı yok, Claude Code/Codex/Cursor için skill'ler, GSAP/Lottie/Three.js animasyon desteği, Remotion'a Apache 2.0 lisanslı alternatif | [Repo](https://github.com/heygen-com/hyperframes) | [İzle](https://www.youtube.com/shorts/Lom65wVZUP8) | [İzle](https://www.youtube.com/watch?v=hAX53Yu_gfQ) |
+| 130 | `storytold/photocraft` | Photoshop'un açık kaynak versiyonu: tamamen Rust ile sıfırdan yazılmış görsel editör; Photoshop menü ve kısayolları, PSD/PSB desteği, 16 ayar katmanı, 70+ canlı filtre, cihazda çalışan akıllı seçim, CLI ve MCP ile AI ajan desteği; şu an erken alfa | [Repo](https://github.com/storytold/photocraft) | [İzle](https://www.youtube.com/shorts/5RlwF35nJu0) |  |
+| 129 | `OpenCut-app/OpenCut` | CapCut'a para verme, OpenCut kullan: tarayıcıda çalışan ücretsiz açık kaynak video editörü; videolar cihazda kalıyor, keyframe animasyonu, maske, hız/ses kontrolü ve otomatik altyazı; Rust core ve MCP server'lı yeni sürüm yolda | [Repo](https://github.com/OpenCut-app/OpenCut) | [İzle](https://www.youtube.com/shorts/n_AR0X_D3EM) |  |
+| 126 | `SessionLoops/PitchNet` | Melodyne'a para vermek istemeyenler için ücretsiz AI vokal tuning plugin'i: ses dalgasını bükmek yerine neural vocoder ile yeniden üretiyor, piano roll'da nota nota düzenleme, VST3/AU/AAX + ARA desteği | [Repo](https://github.com/SessionLoops/PitchNet) | [İzle](https://www.youtube.com/shorts/vRKoMvfxEtA) |  |
+| 117 | `palmier-io/palmier-pro` | AI için yapılmış Mac video editörü: AI görsel/video/ses'i direkt timeline'da üret, kendi çekimlerinle birleştir, MCP ile Claude ve Cursor'a projeni kurgulat, Premiere/DaVinci'ye aktar | [Repo](https://github.com/palmier-io/palmier-pro) | [İzle](https://www.youtube.com/shorts/uC6-FA-v8nQ) |  |
+| 104 | `Augani/openreel-video` | CapCut'a açık kaynak alternatif: tarayıcıda çalışan, %100 client-side, WebGPU hızlandırmalı 4K video editör | [Repo](https://github.com/Augani/openreel-video) | [İzle](https://www.youtube.com/shorts/H3LlCmkNDPE) |  |
+| 102 | `nexu-io/open-design` | Claude Design'a açık kaynak alternatif: lokalde çalışan, agent CLI destekli AI tasarım stüdyosu | [Repo](https://github.com/nexu-io/open-design) | [İzle](https://www.youtube.com/shorts/9dIxRgyANn0) |  |
+| 68 | `siddharthvaddem/openscreen` | SaaS ürünleri için tanıtım videosu ve ekran kaydı üretimini kolaylaştırıyor | [Repo](https://github.com/siddharthvaddem/openscreen) | [İzle](https://www.youtube.com/shorts/6GvXRk8NRZY) |  |
+| 55 | `sonic-pi-net/sonic-pi` | Kod yazarak müzik üretmeni sağlayan bir canlı coding aracı | [Repo](https://github.com/sonic-pi-net/sonic-pi) | [İzle](https://www.youtube.com/shorts/2831xbHoqog) |  |
+| 36 | `slidevjs/slidev` | Markdown ile geliştirici dostu sunumlar hazırlamanı sağlıyor | [Repo](https://github.com/slidevjs/slidev) | [İzle](https://www.youtube.com/shorts/aDsAhNZywvE) |  |
+| 12 | `remotion-dev/remotion` | React yazarak gerçek video üret | [Repo](https://github.com/remotion-dev/remotion) | [İzle](https://www.youtube.com/shorts/w1MOSKvJSx0) | [İzle](https://www.youtube.com/watch?v=cTCz8QYnQN8) |
+| 1 | `antvis/Infographic` | Metin yaz, infografik hazır | [Repo](https://github.com/antvis/Infographic) | [İzle](https://www.youtube.com/shorts/2xFWYAFT_KA) | [İzle](https://www.youtube.com/watch?v=gI99OYFUfkA) |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## 🎨 UI bileşenleri & web animasyonu
+
+_React/Tailwind bileşenleri, animasyon kütüphaneleri, editörler_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 106 | `AnmolSaini16/mapcn` | shadcn'in harita versiyonu: React için copy-paste, MapLibre tabanlı, light/dark mod uyumlu harita bileşenleri | [Repo](https://github.com/AnmolSaini16/mapcn) | [İzle](https://www.youtube.com/shorts/AQ_OUlDcTOM) |  |
+| 54 | `airbnb/lottie-web` | Uygulama ve web projelerine profesyonel animasyonlar eklemeni sağlıyor | [Repo](https://github.com/airbnb/lottie-web) | [İzle](https://www.youtube.com/shorts/86W1YfgPnYk) |  |
+| 45 | `juliangarnier/anime` | Web animasyonları için hafif ve popüler bir kütüphane | [Repo](https://github.com/juliangarnier/anime) | [İzle](https://www.youtube.com/shorts/LX4oWBFSI7c) |  |
+| 39 | `greensock/GSAP` | Web tarafında ileri seviye animasyonlar yapmanı sağlıyor | [Repo](https://github.com/greensock/GSAP) | [İzle](https://www.youtube.com/shorts/nSu_xsf8kSY) |  |
+| 34 | `slab/quill` | Uygulamana zengin metin editörü eklemeni kolaylaştırıyor | [Repo](https://github.com/slab/quill) | [İzle](https://www.youtube.com/shorts/6PprO6aYNDY) |  |
+| 32 | `puckeditor/puck` | Sürükle-bırak tarzında page builder editörü eklemeni sağlıyor | [Repo](https://github.com/puckeditor/puck) | [İzle](https://www.youtube.com/shorts/2NhLk9UbywM) |  |
+| 29 | `animate-css/animate.css` | Siteye hazır CSS animasyonları hızlıca eklemeni sağlıyor | [Repo](https://github.com/animate-css/animate.css) | [İzle](https://www.youtube.com/shorts/9wi_84Arh1Q) |  |
+| 27 | `tldraw/tldraw` | Kendi whiteboard uygulamanı hızlı kurman için gereken altyapıyı veriyor | [Repo](https://github.com/tldraw/tldraw) | [İzle](https://www.youtube.com/shorts/-G7ibVI6u34) |  |
+| 21 | `shadcn-ui/ui` | Projeye kopyalayarak kullanabileceğin modern UI component'leri veriyor | [Repo](https://github.com/shadcn-ui/ui) | [İzle](https://www.youtube.com/shorts/GkbkS7U1a_Y) |  |
+| 20 | `saadeghi/daisyui` | Tailwind ile hazır UI component'leri kullanmanı sağlıyor | [Repo](https://github.com/saadeghi/daisyui) | [İzle](https://www.youtube.com/shorts/zKrNYSI-qd4) |  |
+| 18 | `tremorlabs/tremor` | Dashboard tasarlamakla uğraşma, kopyala yapıştır | [Repo](https://github.com/tremorlabs/tremor) | [İzle](https://www.youtube.com/shorts/Rf5jRfYtXiY) |  |
+| 14 | `DavidHDev/react-bits` | React projende animasyonları sıfırdan yazmaktan sıkıldıysan bu repo tam sana göre | [Repo](https://github.com/DavidHDev/react-bits) | [İzle](https://www.youtube.com/shorts/7XzSweUGnr4) |  |
+| 6 | `magicuidesign/magicui` | React ve Tailwind ile hazır, animasyonlu UI bileşenleri sunuyor | [Repo](https://github.com/magicuidesign/magicui) | [İzle](https://www.youtube.com/shorts/103EGz7WTE4) | [İzle](https://www.youtube.com/watch?v=11_gU5kteLs) |
+| 5 | `motiondivision/motion` | Web animasyonlarında devrim yapan açık kaynak kütüphane | [Repo](https://github.com/motiondivision/motion) | [İzle](https://www.youtube.com/shorts/3gPLR82bmeQ) | [İzle](https://www.youtube.com/watch?v=gI99OYFUfkA) |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## 📊 Grafik, 3D & oyun
+
+_Veri görselleştirme, 3D, 2D çizim ve oyun motorları_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 90 | `samizdatco/skia-canvas` | Node.js tarafında Canvas API ile görsel üretimi yapmanı sağlayan, Skia tabanlı hızlı bir 2D çizim kütüphanesi | [Repo](https://github.com/samizdatco/skia-canvas) | [İzle](https://www.youtube.com/shorts/31KLnrwHPn0) |  |
+| 88 | `godotengine/godot` | 2D ve 3D oyunları tek editör arayüzünden geliştirip farklı platformlara export etmeni sağlayan açık kaynak game engine | [Repo](https://github.com/godotengine/godot) | [İzle](https://www.youtube.com/shorts/SYqMK55ZvrQ) |  |
+| 76 | `recharts/recharts` | React projelerinde line, bar, pie ve area chart gibi grafikler oluşturmanı sağlayan açık kaynak kütüphane | [Repo](https://github.com/recharts/recharts) | [İzle](https://www.youtube.com/shorts/TBoP5k6QFtk) |  |
+| 75 | `pascalorg/editor` | Tarayıcıda çalışan açık kaynak 3D mimari editör ile duvar, kat, çatı ve mobilya tasarlamanı sağlıyor | [Repo](https://github.com/pascalorg/editor) | [İzle](https://www.youtube.com/shorts/1GM22XsMyBY) |  |
+| 49 | `phaserjs/phaser` | 2D oyun geliştirmek için güçlü bir HTML5 oyun framework'ü sunuyor | [Repo](https://github.com/phaserjs/phaser) | [İzle](https://www.youtube.com/shorts/j8XfSTzAEN8) |  |
+| 46 | `chartjs/Chart.js` | Tarayıcıda hızlı ve kolay grafikler oluşturmanı sağlıyor | [Repo](https://github.com/chartjs/Chart.js) | [İzle](https://www.youtube.com/shorts/GYSfFcOO7p0) |  |
+| 40 | `mrdoob/three.js` | Web'de 3D sahneler ve deneyimler oluşturmanı sağlıyor | [Repo](https://github.com/mrdoob/three.js) | [İzle](https://www.youtube.com/shorts/-y_rrKW-KZA) |  |
+| 38 | `d3/d3` | Veri görselleştirme için güçlü ve esnek grafik kütüphanesi sunuyor | [Repo](https://github.com/d3/d3) | [İzle](https://www.youtube.com/shorts/OKwJ-y3EN4c) |  |
+| 33 | `pixijs/pixijs` | Tarayıcıda hızlı 2D grafik, oyun ve interaktif deneyimler geliştirmeni sağlıyor | [Repo](https://github.com/pixijs/pixijs) | [İzle](https://www.youtube.com/shorts/AEr0VaA3Llg) |  |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## 🛠️ Backend, DevOps, test & izleme
+
+_CMS, deployment, test otomasyonu, monitoring ve güvenlik_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 127 | `google/artemis` | Doğal dille yazdığın cümleyi gerçek Android telefonda çalıştıran test otomasyon aracı: APK derleyip kuruyor, ekranı okuyup dokunuyor, Logcat ve ekran görüntüsü topluyor; MCP ile Claude Code/Codex/Antigravity'ye bağlanıyor, AndroidWorld'de %99+ başarı | [Repo](https://github.com/google/artemis) | [İzle](https://www.youtube.com/shorts/rCoGqcsKnmY) |  |
+| 118 | `openreplay/openreplay` | "Bende çalışmıyor" diyen kullanıcıyı birebir izle: session replay + DevTools (konsol, network, JS hataları), co-browsing, funnel/heatmap analizi, tamamı self-hosted | [Repo](https://github.com/openreplay/openreplay) | [İzle](https://www.youtube.com/shorts/KJTo0pluq7M) |  |
+| 116 | `webpro-nl/knip` | JavaScript/TypeScript projendeki kullanılmayan dosya, paket ve export'ları bulup tek komutla temizleyen, 150+ plugin ile framework-aware analiz yapan açık kaynak araç | [Repo](https://github.com/webpro-nl/knip) | [İzle](https://www.youtube.com/shorts/7KwDz7tYfpc) |  |
+| 97 | `google/osv-scanner` | Projendeki bağımlılıklarda bilinen güvenlik açıklarını ve container imajlarını tarayan, Google'ın açık kaynak vulnerability scanner'ı | [Repo](https://github.com/google/osv-scanner) | [İzle](https://www.youtube.com/shorts/WEYL8-AAsEs) |  |
+| 96 | `prometheus/prometheus` | Sunucularını ve uygulamalarını izlemenin açık kaynak standardı; metrik toplama, alarm ve Kubernetes/Grafana entegrasyonu | [Repo](https://github.com/prometheus/prometheus) | [İzle](https://www.youtube.com/shorts/_Megzvq771M) |  |
+| 93 | `grafana/grafana` | Sunucuları, uygulamaları ve veritabanlarını tek dashboard'dan izlemeni sağlayan açık kaynak monitoring platformu | [Repo](https://github.com/grafana/grafana) | [İzle](https://www.youtube.com/shorts/EJJc2CE1gqc) |  |
+| 59 | `filamentphp/filament` | Laravel projelerinde admin paneli ve form tablolarını hızla kurmanı sağlıyor | [Repo](https://github.com/filamentphp/filament) | [İzle](https://www.youtube.com/shorts/XmKYiEZsRso) |  |
+| 56 | `dokploy/dokploy` | Kendi sunucunda kolay deployment ve hosting ortamı kurmanı sağlıyor | [Repo](https://github.com/dokploy/dokploy) | [İzle](https://www.youtube.com/shorts/vpHbCG8ag1M) |  |
+| 51 | `coollabsio/coolify` | Kendi sunucunda Vercel benzeri deployment ortamı kurmanı sağlıyor | [Repo](https://github.com/coollabsio/coolify) | [İzle](https://www.youtube.com/shorts/PrlqXvx3LPk) |  |
+| 48 | `fastlane/fastlane` | Mobil uygulama build ve store yayınlama süreçlerini otomatikleştiriyor | [Repo](https://github.com/fastlane/fastlane) | [İzle](https://www.youtube.com/shorts/Mmj01VKVXeU) |  |
+| 47 | `socketio/socket.io` | Gerçek zamanlı uygulamalarda istemci ve sunucu arasında anlık iletişim kuruyor | [Repo](https://github.com/socketio/socket.io) | [İzle](https://www.youtube.com/shorts/eAs5iNvSG6A) |  |
+| 43 | `strapi/strapi` | Açık kaynak headless CMS kurmanı sağlıyor | [Repo](https://github.com/strapi/strapi) | [İzle](https://www.youtube.com/shorts/eeNTtHm9V4c) |  |
+| 42 | `microsoft/playwright` | Uç uca test ve tarayıcı otomasyonu için güçlü bir framework sunuyor | [Repo](https://github.com/microsoft/playwright) | [İzle](https://www.youtube.com/shorts/9rUwfGPO0QI) |  |
+| 30 | `payloadcms/payload` | Next.js ile açık kaynak CMS ve admin paneli kurmanı sağlıyor | [Repo](https://github.com/payloadcms/payload) | [İzle](https://www.youtube.com/shorts/qH8lvI7mOfA) |  |
+| 26 | `storybookjs/storybook` | UI component'lerini uygulamadan bağımsız geliştirip test etmeni sağlıyor | [Repo](https://github.com/storybookjs/storybook) | [İzle](https://www.youtube.com/shorts/0V97m_IooQ4) |  |
+| 23 | `puppeteer/puppeteer` | Tarayıcı otomasyonu ve web scraping işlemlerini kodla yapmanı sağlıyor | [Repo](https://github.com/puppeteer/puppeteer) | [İzle](https://www.youtube.com/shorts/FY6qjcGD3nU) |  |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## 📚 Öğrenme & kaynak listeleri
+
+_Ders, prompt, fikir ve ücretsiz araç listeleri_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 91 | `florinpop17/app-ideas` | Pratik yapmak isteyen geliştiriciler için seviye seviye (Beginner/Intermediate/Advanced) uygulama fikirlerini toplayan açık kaynak liste | [Repo](https://github.com/florinpop17/app-ideas) | [İzle](https://www.youtube.com/shorts/4xdYNrfw1SY) |  |
+| 62 | `ripienaar/free-for-dev` | Geliştiriciler için ücretsiz araç ve servis listesini tek yerde topluyor | [Repo](https://github.com/ripienaar/free-for-dev) | [İzle](https://www.youtube.com/shorts/fMWlswvNw34) |  |
+| 24 | `microsoft/generative-ai-for-beginners` | Generative AI öğrenmek için ücretsiz ders ve örnekler sunuyor | [Repo](https://github.com/microsoft/generative-ai-for-beginners) | [İzle](https://www.youtube.com/shorts/d15W2oBhY4U) |  |
+| 19 | `f/awesome-chatgpt-prompts` | ChatGPT için hazır prompt koleksiyonları sunuyor | [Repo](https://github.com/f/awesome-chatgpt-prompts) | [İzle](https://www.youtube.com/shorts/2AMNwfQ3VNk) |  |
+| 16 | `codecrafters-io/build-your-own-x` | Bir teknolojiyi gerçekten anlamanın tek yolu var: Onu sıfırdan yapmak | [Repo](https://github.com/codecrafters-io/build-your-own-x) | [İzle](https://www.youtube.com/shorts/CSDCMaXEpwA) |  |
+| 13 | `marcelscruz/public-apis` | Ücretsiz public API listelerini tek yerde topluyor | [Repo](https://github.com/marcelscruz/public-apis) | [İzle](https://www.youtube.com/shorts/Z81e6l27wJI) |  |
+| 10 | `twitter/the-algorithm` | Twitter sana neyi göstereceğini nasıl biliyor? İşte cevabı | [Repo](https://github.com/twitter/the-algorithm) | [İzle](https://www.youtube.com/shorts/vCbQ6lTpkkY) |  |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## 🧩 Diğer
+
+_Terminal, Linux, programlama dili ve donanım_
+
+| # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
+|---|---|---|---|---|---|
+| 99 | `dji-sdk/RoboMaster-SDK` | DJI RoboMaster EP ve Tello Talent drone'u Python ile programlamanı sağlayan resmi SDK | [Repo](https://github.com/dji-sdk/RoboMaster-SDK) | [İzle](https://www.youtube.com/shorts/NoIXo33X8ps) |  |
+| 82 | `basecamp/omarchy` | Arch Linux tabanlı, kurulum ve konfigürasyonla uğraştırmadan Hyprland, Neovim, Docker ve diğer geliştirici araçlarıyla hazır gelen modern bir Linux dağıtımı | [Repo](https://github.com/basecamp/omarchy) | [İzle](https://www.youtube.com/shorts/r5o6XIrYaPQ) |  |
+| 65 | `selahattinunlu/yt-music-cli` | Terminalden YouTube Music dinlemeyi sağlayan bir CLI aracı | [Repo](https://github.com/selahattinunlu/yt-music-cli) | [İzle](https://www.youtube.com/shorts/FdFVip8ScyU) |  |
+| 17 | `kip-dili/kip` | Ya Türkçe konuşur gibi kod yazabilseydin? | [Repo](https://github.com/kip-dili/kip) | [İzle](https://www.youtube.com/shorts/Qincnk48_6Q) |  |
+
+[↑ Kategorilere dön](#kategoriler)
+
+## Tüm liste (numaraya göre)
+
+<details>
+<summary>134 reponun tamamını numara sırasıyla göster</summary>
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
@@ -155,3 +391,5 @@ YouTube Shorts oynatma listesi: <https://www.youtube.com/playlist?list=PL0ncE8cD
 | 133 | `heygen-com/hyperframes` | AI ajanın artık video da çekiyor: HeyGen'in açık kaynak framework'ü; HTML yaz, MP4 video al, React ve build adımı yok, Claude Code/Codex/Cursor için skill'ler, GSAP/Lottie/Three.js animasyon desteği, Remotion'a Apache 2.0 lisanslı alternatif | [Repo](https://github.com/heygen-com/hyperframes) | [İzle](https://www.youtube.com/shorts/Lom65wVZUP8) | [İzle](https://www.youtube.com/watch?v=hAX53Yu_gfQ) |
 | 134 | `storytold/filmcraft` | Premiere'e para verme, FilmCraft kullan: Rust ile sıfırdan yazılmış açık kaynak video editörü; Premiere panelleri ve kısayolları, FFmpeg'siz kendi codec'leri, renk düzenleme ve scope'lar, yayın standardında ses ölçer, MCP ile AI ajan desteği; macOS/Windows/Linux ve tarayıcı; şu an alpha | [Repo](https://github.com/storytold/filmcraft) | [İzle](https://www.youtube.com/shorts/x-SdyIByl-4) |  |
 | 135 | `KnifeLemon/Filee` | Dosya çevirmek için siteye yükleme devri bitti: Ctrl ile sürükle, imleçte açılan menüde formata bırak; 255 format, Office/LibreOffice gerekmez, offline çalışır, toplu dönüştürme ve izlenen klasörler; Windows, Linux, macOS (önizleme) | [Repo](https://github.com/KnifeLemon/Filee) | [İzle](https://www.youtube.com/shorts/Qb75Ud9cCE4) |  |
+
+</details>
