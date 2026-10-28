@@ -28,7 +28,7 @@ YouTube Shorts oynatma listesi: <https://www.youtube.com/playlist?list=PL0ncE8cD
 - [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (37)
 - [🧠 AI modelleri & local AI](#-ai-modelleri--local-ai) (16)
 - [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (18)
-- [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (13)
+- [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (14)
 - [🎨 UI bileşenleri & web animasyonu](#-ui-bileşenleri--web-animasyonu) (14)
 - [📊 Grafik, 3D & oyun](#-grafik-3d--oyun) (9)
 - [🛠️ Backend, DevOps, test & izleme](#-backend-devops-test--izleme) (16)
@@ -139,6 +139,7 @@ _Video editörleri, kodla video üretimi, müzik, sunum ve tasarım_
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 136 | `debpalash/VoiceStudio` | ElevenLabs'a para verme, sesini kendi bilgisayarında klonla: 3 saniyelik kayıttan ses klonlama, yazıyla ses tasarımı, zamanlamayı koruyan video dublajı, sesli kitap, 646 dil; tamamen local, açık kaynak (AGPL-3.0) | [Repo](https://github.com/debpalash/VoiceStudio) | [İzle](https://www.youtube.com/shorts/BOj-Oe3fqOY) |  |
 | 134 | `storytold/filmcraft` | Premiere'e para verme, FilmCraft kullan: Rust ile sıfırdan yazılmış açık kaynak video editörü; Premiere panelleri ve kısayolları, FFmpeg'siz kendi codec'leri, renk düzenleme ve scope'lar, yayın standardında ses ölçer, MCP ile AI ajan desteği; macOS/Windows/Linux ve tarayıcı; şu an alpha | [Repo](https://github.com/storytold/filmcraft) | [İzle](https://www.youtube.com/shorts/x-SdyIByl-4) |  |
 | 133 | `heygen-com/hyperframes` | AI ajanın artık video da çekiyor: HeyGen'in açık kaynak framework'ü; HTML yaz, MP4 video al, React ve build adımı yok, Claude Code/Codex/Cursor için skill'ler, GSAP/Lottie/Three.js animasyon desteği, Remotion'a Apache 2.0 lisanslı alternatif | [Repo](https://github.com/heygen-com/hyperframes) | [İzle](https://www.youtube.com/shorts/Lom65wVZUP8) | [İzle](https://www.youtube.com/watch?v=hAX53Yu_gfQ) |
 | 130 | `storytold/photocraft` | Photoshop'un açık kaynak versiyonu: tamamen Rust ile sıfırdan yazılmış görsel editör; Photoshop menü ve kısayolları, PSD/PSB desteği, 16 ayar katmanı, 70+ canlı filtre, cihazda çalışan akıllı seçim, CLI ve MCP ile AI ajan desteği; şu an erken alfa | [Repo](https://github.com/storytold/photocraft) | [İzle](https://www.youtube.com/shorts/5RlwF35nJu0) |  |
@@ -253,7 +254,7 @@ _Terminal, Linux, programlama dili ve donanım_
 ## Tüm liste (numaraya göre)
 
 <details>
-<summary>134 reponun tamamını numara sırasıyla göster</summary>
+<summary>135 reponun tamamını numara sırasıyla göster</summary>
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
@@ -391,5 +392,6 @@ _Terminal, Linux, programlama dili ve donanım_
 | 133 | `heygen-com/hyperframes` | AI ajanın artık video da çekiyor: HeyGen'in açık kaynak framework'ü; HTML yaz, MP4 video al, React ve build adımı yok, Claude Code/Codex/Cursor için skill'ler, GSAP/Lottie/Three.js animasyon desteği, Remotion'a Apache 2.0 lisanslı alternatif | [Repo](https://github.com/heygen-com/hyperframes) | [İzle](https://www.youtube.com/shorts/Lom65wVZUP8) | [İzle](https://www.youtube.com/watch?v=hAX53Yu_gfQ) |
 | 134 | `storytold/filmcraft` | Premiere'e para verme, FilmCraft kullan: Rust ile sıfırdan yazılmış açık kaynak video editörü; Premiere panelleri ve kısayolları, FFmpeg'siz kendi codec'leri, renk düzenleme ve scope'lar, yayın standardında ses ölçer, MCP ile AI ajan desteği; macOS/Windows/Linux ve tarayıcı; şu an alpha | [Repo](https://github.com/storytold/filmcraft) | [İzle](https://www.youtube.com/shorts/x-SdyIByl-4) |  |
 | 135 | `KnifeLemon/Filee` | Dosya çevirmek için siteye yükleme devri bitti: Ctrl ile sürükle, imleçte açılan menüde formata bırak; 255 format, Office/LibreOffice gerekmez, offline çalışır, toplu dönüştürme ve izlenen klasörler; Windows, Linux, macOS (önizleme) | [Repo](https://github.com/KnifeLemon/Filee) | [İzle](https://www.youtube.com/shorts/Qb75Ud9cCE4) |  |
+| 136 | `debpalash/VoiceStudio` | ElevenLabs'a para verme, sesini kendi bilgisayarında klonla: 3 saniyelik kayıttan ses klonlama, yazıyla ses tasarımı, zamanlamayı koruyan video dublajı, sesli kitap, 646 dil; tamamen local, açık kaynak (AGPL-3.0) | [Repo](https://github.com/debpalash/VoiceStudio) | [İzle](https://www.youtube.com/shorts/BOj-Oe3fqOY) |  |
 
 </details>

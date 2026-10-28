@@ -6,7 +6,7 @@
   {"title": "💸 Açık kaynak alternatifler & self-hosted uygulamalar", "description": "Notion, Jira, Google Photos, DocuSign... yerine ücretsiz ve kendi sunucunda çalışan seçenekler",
    "repos": [2, 8, 11, 15, 22, 31, 44, 52, 57, 58, 67, 71, 77, 79, 110, 114, 131, 135]},
   {"title": "🎬 Video, ses & tasarım araçları", "description": "Video editörleri, kodla video üretimi, müzik, sunum ve tasarım",
-   "repos": [1, 12, 36, 55, 68, 102, 104, 117, 126, 129, 130, 133, 134]},
+   "repos": [1, 12, 36, 55, 68, 102, 104, 117, 126, 129, 130, 133, 134, 136]},
   {"title": "🎨 UI bileşenleri & web animasyonu", "description": "React/Tailwind bileşenleri, animasyon kütüphaneleri, editörler",
    "repos": [5, 6, 14, 18, 20, 21, 27, 29, 32, 34, 39, 45, 54, 106]},
   {"title": "📊 Grafik, 3D & oyun", "description": "Veri görselleştirme, 3D, 2D çizim ve oyun motorları",
