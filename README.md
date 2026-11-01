@@ -25,10 +25,10 @@ YouTube Shorts oynatma listesi: <https://www.youtube.com/playlist?list=PL0ncE8cD
 
 ## Kategoriler
 
-- [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (37)
+- [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (38)
 - [🧠 AI modelleri & local AI](#-ai-modelleri--local-ai) (16)
 - [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (18)
-- [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (14)
+- [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (15)
 - [🎨 UI bileşenleri & web animasyonu](#-ui-bileşenleri--web-animasyonu) (14)
 - [📊 Grafik, 3D & oyun](#-grafik-3d--oyun) (9)
 - [🛠️ Backend, DevOps, test & izleme](#-backend-devops-test--izleme) (16)
@@ -41,6 +41,7 @@ _Skill'ler, plugin'ler, MCP server'lar, AI ajanları ve kodlama ajanını güçl
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 138 | `elvarofficial/teardown` | Makineyi anlatma, Claude söküp göstersin: her makineyi sökülebilir bir 3D simülatöre çeviriyor; gerçek sayıları gösteren paneller, butonla açılan parçalar, kesit ve kamera görünümleri, kendi kendine tur, 60 FPS video ve otomatik ses; tek offline HTML dosyası | [Repo](https://github.com/elvarofficial/teardown) | [İzle](https://www.youtube.com/shorts/AHvLU6Ct6G0) |  |
 | 132 | `morluto/rea` | Kaynak kodu olmadan bir uygulamanın nasıl çalıştığını AI ajanına çözdüren reverse engineering aracı: MCP ile Claude Code/Codex/Cursor/Gemini CLI'a bağlanıyor, exe, Electron, web sitesi ve Android APK inceliyor, Ghidra/Hopper/IDA kullanıyor, bulguları kanıtıyla sunuyor, analiz yerelde | [Repo](https://github.com/morluto/rea) | [İzle](https://www.youtube.com/shorts/SEwiWBdwAYk) |  |
 | 128 | `NVIDIA/SkillSpector` | AI agent skill'lerini yüklemeden önce tarayan NVIDIA'nın açık kaynak güvenlik tarayıcısı: prompt injection, gizli komut ve veri sızdırma tespiti, 17 kategoride kontrol, statik + opsiyonel LLM analizi, 0-100 risk skoru, MCP ile Claude Code'a bağlanıyor | [Repo](https://github.com/NVIDIA/SkillSpector) | [İzle](https://www.youtube.com/shorts/RTk9IzZCm3I) |  |
 | 125 | `diegosouzapw/OmniRoute` | Ücretsiz açık kaynak AI gateway: tek endpoint arkasında 352 sağlayıcı (154'ü ücretsiz katmanlı), kota bitince otomatik fallback, Claude Code/Codex/Cursor/Cline uyumlu, %15-95 token tasarrufu sağlayan sıkıştırma | [Repo](https://github.com/diegosouzapw/OmniRoute) | [İzle](https://www.youtube.com/shorts/Doq6a6eHKf4) |  |
@@ -139,6 +140,7 @@ _Video editörleri, kodla video üretimi, müzik, sunum ve tasarım_
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 137 | `storytold/lightcraft` | Fotoğraf düzenlemeye abonelik ödeme: Rust ile yazılmış açık kaynak fotoğraf kütüphanesi ve raw düzenleyici; tahribatsız düzenleme, renk mikseri, ton eğrisi, renk çarkları, gökyüzü/konu/arka plan maskeleri, MCP ile AI ajan desteği; hesap, bulut ve abonelik yok; macOS/Windows/Linux ve Web | [Repo](https://github.com/storytold/lightcraft) | [İzle](https://www.youtube.com/shorts/N2nEZDE4KBo) |  |
 | 136 | `debpalash/VoiceStudio` | ElevenLabs'a para verme, sesini kendi bilgisayarında klonla: 3 saniyelik kayıttan ses klonlama, yazıyla ses tasarımı, zamanlamayı koruyan video dublajı, sesli kitap, 646 dil; tamamen local, açık kaynak (AGPL-3.0) | [Repo](https://github.com/debpalash/VoiceStudio) | [İzle](https://www.youtube.com/shorts/BOj-Oe3fqOY) |  |
 | 134 | `storytold/filmcraft` | Premiere'e para verme, FilmCraft kullan: Rust ile sıfırdan yazılmış açık kaynak video editörü; Premiere panelleri ve kısayolları, FFmpeg'siz kendi codec'leri, renk düzenleme ve scope'lar, yayın standardında ses ölçer, MCP ile AI ajan desteği; macOS/Windows/Linux ve tarayıcı; şu an alpha | [Repo](https://github.com/storytold/filmcraft) | [İzle](https://www.youtube.com/shorts/x-SdyIByl-4) |  |
 | 133 | `heygen-com/hyperframes` | AI ajanın artık video da çekiyor: HeyGen'in açık kaynak framework'ü; HTML yaz, MP4 video al, React ve build adımı yok, Claude Code/Codex/Cursor için skill'ler, GSAP/Lottie/Three.js animasyon desteği, Remotion'a Apache 2.0 lisanslı alternatif | [Repo](https://github.com/heygen-com/hyperframes) | [İzle](https://www.youtube.com/shorts/Lom65wVZUP8) | [İzle](https://www.youtube.com/watch?v=hAX53Yu_gfQ) |
@@ -254,7 +256,7 @@ _Terminal, Linux, programlama dili ve donanım_
 ## Tüm liste (numaraya göre)
 
 <details>
-<summary>135 reponun tamamını numara sırasıyla göster</summary>
+<summary>137 reponun tamamını numara sırasıyla göster</summary>
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
@@ -393,5 +395,7 @@ _Terminal, Linux, programlama dili ve donanım_
 | 134 | `storytold/filmcraft` | Premiere'e para verme, FilmCraft kullan: Rust ile sıfırdan yazılmış açık kaynak video editörü; Premiere panelleri ve kısayolları, FFmpeg'siz kendi codec'leri, renk düzenleme ve scope'lar, yayın standardında ses ölçer, MCP ile AI ajan desteği; macOS/Windows/Linux ve tarayıcı; şu an alpha | [Repo](https://github.com/storytold/filmcraft) | [İzle](https://www.youtube.com/shorts/x-SdyIByl-4) |  |
 | 135 | `KnifeLemon/Filee` | Dosya çevirmek için siteye yükleme devri bitti: Ctrl ile sürükle, imleçte açılan menüde formata bırak; 255 format, Office/LibreOffice gerekmez, offline çalışır, toplu dönüştürme ve izlenen klasörler; Windows, Linux, macOS (önizleme) | [Repo](https://github.com/KnifeLemon/Filee) | [İzle](https://www.youtube.com/shorts/Qb75Ud9cCE4) |  |
 | 136 | `debpalash/VoiceStudio` | ElevenLabs'a para verme, sesini kendi bilgisayarında klonla: 3 saniyelik kayıttan ses klonlama, yazıyla ses tasarımı, zamanlamayı koruyan video dublajı, sesli kitap, 646 dil; tamamen local, açık kaynak (AGPL-3.0) | [Repo](https://github.com/debpalash/VoiceStudio) | [İzle](https://www.youtube.com/shorts/BOj-Oe3fqOY) |  |
+| 137 | `storytold/lightcraft` | Fotoğraf düzenlemeye abonelik ödeme: Rust ile yazılmış açık kaynak fotoğraf kütüphanesi ve raw düzenleyici; tahribatsız düzenleme, renk mikseri, ton eğrisi, renk çarkları, gökyüzü/konu/arka plan maskeleri, MCP ile AI ajan desteği; hesap, bulut ve abonelik yok; macOS/Windows/Linux ve Web | [Repo](https://github.com/storytold/lightcraft) | [İzle](https://www.youtube.com/shorts/N2nEZDE4KBo) |  |
+| 138 | `elvarofficial/teardown` | Makineyi anlatma, Claude söküp göstersin: her makineyi sökülebilir bir 3D simülatöre çeviriyor; gerçek sayıları gösteren paneller, butonla açılan parçalar, kesit ve kamera görünümleri, kendi kendine tur, 60 FPS video ve otomatik ses; tek offline HTML dosyası | [Repo](https://github.com/elvarofficial/teardown) | [İzle](https://www.youtube.com/shorts/AHvLU6Ct6G0) |  |
 
 </details>
