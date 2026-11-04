@@ -26,7 +26,7 @@ YouTube Shorts oynatma listesi: <https://www.youtube.com/playlist?list=PL0ncE8cD
 ## Kategoriler
 
 - [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (38)
-- [🧠 AI modelleri & local AI](#-ai-modelleri--local-ai) (16)
+- [🧠 AI modelleri & local AI](#-ai-modelleri--local-ai) (17)
 - [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (18)
 - [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (15)
 - [🎨 UI bileşenleri & web animasyonu](#-ui-bileşenleri--web-animasyonu) (14)
@@ -88,6 +88,7 @@ _Kendi bilgisayarında çalışan modeller, ses ve görüntü AI'ı, LLM'ler iç
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 139 | `anomalyco/hex` | Konuş, yazsın, yapıştırsın: Mac, Windows ve Linux için yerel sesle yazma uygulaması; tuşa basılı tut, konuş, metin bulunduğun uygulamaya yapışsın; tamamen cihazda çalışır, dikte geçmişi ve kendi kelime listesi, MIT lisanslı | [Repo](https://github.com/anomalyco/hex) | [İzle](https://www.youtube.com/shorts/ES3GtgVVgJM) |  |
 | 120 | `firecrawl/pdf-inspector` | Rust ile yazılmış hızlı PDF ayrıştırıcı: PDF tipini 10-50ms'de sınıflandırıp metin tabanlı olanları OCR'sız temiz Markdown'a çeviriyor; API key yok, Python/Node/Rust/WASM | [Repo](https://github.com/firecrawl/pdf-inspector) | [İzle](https://www.youtube.com/shorts/NcU_sQ_HVes) |  |
 | 111 | `gradio-app/gradio` | Birkaç satır Python ile ML modeline web arayüzü kur, public link al, Hugging Face Spaces'e ücretsiz deploy et | [Repo](https://github.com/gradio-app/gradio) | [İzle](https://www.youtube.com/shorts/elTrW5EYYjY) |  |
 | 105 | `jamiepine/voicebox` | Kendi sesli AI stüdyon: 7 TTS motoru, ses klonlama, 23 dilde konuşma üretimi, MCP server ile ajanlara ses veren local-first açık kaynak araç | [Repo](https://github.com/jamiepine/voicebox) | [İzle](https://www.youtube.com/shorts/cSRvZpERzmY) |  |
@@ -256,7 +257,7 @@ _Terminal, Linux, programlama dili ve donanım_
 ## Tüm liste (numaraya göre)
 
 <details>
-<summary>137 reponun tamamını numara sırasıyla göster</summary>
+<summary>138 reponun tamamını numara sırasıyla göster</summary>
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
@@ -397,5 +398,6 @@ _Terminal, Linux, programlama dili ve donanım_
 | 136 | `debpalash/VoiceStudio` | ElevenLabs'a para verme, sesini kendi bilgisayarında klonla: 3 saniyelik kayıttan ses klonlama, yazıyla ses tasarımı, zamanlamayı koruyan video dublajı, sesli kitap, 646 dil; tamamen local, açık kaynak (AGPL-3.0) | [Repo](https://github.com/debpalash/VoiceStudio) | [İzle](https://www.youtube.com/shorts/BOj-Oe3fqOY) |  |
 | 137 | `storytold/lightcraft` | Fotoğraf düzenlemeye abonelik ödeme: Rust ile yazılmış açık kaynak fotoğraf kütüphanesi ve raw düzenleyici; tahribatsız düzenleme, renk mikseri, ton eğrisi, renk çarkları, gökyüzü/konu/arka plan maskeleri, MCP ile AI ajan desteği; hesap, bulut ve abonelik yok; macOS/Windows/Linux ve Web | [Repo](https://github.com/storytold/lightcraft) | [İzle](https://www.youtube.com/shorts/N2nEZDE4KBo) |  |
 | 138 | `elvarofficial/teardown` | Makineyi anlatma, Claude söküp göstersin: her makineyi sökülebilir bir 3D simülatöre çeviriyor; gerçek sayıları gösteren paneller, butonla açılan parçalar, kesit ve kamera görünümleri, kendi kendine tur, 60 FPS video ve otomatik ses; tek offline HTML dosyası | [Repo](https://github.com/elvarofficial/teardown) | [İzle](https://www.youtube.com/shorts/AHvLU6Ct6G0) |  |
+| 139 | `anomalyco/hex` | Konuş, yazsın, yapıştırsın: Mac, Windows ve Linux için yerel sesle yazma uygulaması; tuşa basılı tut, konuş, metin bulunduğun uygulamaya yapışsın; tamamen cihazda çalışır, dikte geçmişi ve kendi kelime listesi, MIT lisanslı | [Repo](https://github.com/anomalyco/hex) | [İzle](https://www.youtube.com/shorts/ES3GtgVVgJM) |  |
 
 </details>
