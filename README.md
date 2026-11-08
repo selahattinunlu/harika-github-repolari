@@ -25,9 +25,9 @@ YouTube Shorts oynatma listesi: <https://www.youtube.com/playlist?list=PL0ncE8cD
 
 ## Kategoriler
 
-- [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (38)
+- [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (39)
 - [🧠 AI modelleri & local AI](#-ai-modelleri--local-ai) (17)
-- [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (18)
+- [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (20)
 - [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (15)
 - [🎨 UI bileşenleri & web animasyonu](#-ui-bileşenleri--web-animasyonu) (14)
 - [📊 Grafik, 3D & oyun](#-grafik-3d--oyun) (9)
@@ -41,6 +41,7 @@ _Skill'ler, plugin'ler, MCP server'lar, AI ajanları ve kodlama ajanını güçl
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 142 | `nutlope/hallmark` | Claude Code'un yaptığı siteler hep aynı görünmesin: Claude Code, Codex, Cursor ve OpenCode için tasarım skill'i; 50 hazır tema (renk, yazı tipi, doku), sayfayı isteğe göre baştan kuran düzen, sadece prompttan custom tasarım, gerçek tarayıcıda 8 genişlikte test ve alt ajanla inceleme, içeriği koruyarak redesign, MIT lisanslı | [Repo](https://github.com/nutlope/hallmark) | [İzle](https://www.youtube.com/shorts/u5Ba8d8jR5k) |  |
 | 138 | `elvarofficial/teardown` | Makineyi anlatma, Claude söküp göstersin: her makineyi sökülebilir bir 3D simülatöre çeviriyor; gerçek sayıları gösteren paneller, butonla açılan parçalar, kesit ve kamera görünümleri, kendi kendine tur, 60 FPS video ve otomatik ses; tek offline HTML dosyası | [Repo](https://github.com/elvarofficial/teardown) | [İzle](https://www.youtube.com/shorts/AHvLU6Ct6G0) |  |
 | 132 | `morluto/rea` | Kaynak kodu olmadan bir uygulamanın nasıl çalıştığını AI ajanına çözdüren reverse engineering aracı: MCP ile Claude Code/Codex/Cursor/Gemini CLI'a bağlanıyor, exe, Electron, web sitesi ve Android APK inceliyor, Ghidra/Hopper/IDA kullanıyor, bulguları kanıtıyla sunuyor, analiz yerelde | [Repo](https://github.com/morluto/rea) | [İzle](https://www.youtube.com/shorts/SEwiWBdwAYk) |  |
 | 128 | `NVIDIA/SkillSpector` | AI agent skill'lerini yüklemeden önce tarayan NVIDIA'nın açık kaynak güvenlik tarayıcısı: prompt injection, gizli komut ve veri sızdırma tespiti, 17 kategoride kontrol, statik + opsiyonel LLM analizi, 0-100 risk skoru, MCP ile Claude Code'a bağlanıyor | [Repo](https://github.com/NVIDIA/SkillSpector) | [İzle](https://www.youtube.com/shorts/RTk9IzZCm3I) |  |
@@ -114,6 +115,8 @@ _Notion, Jira, Google Photos, DocuSign... yerine ücretsiz ve kendi sunucunda ç
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 141 | `every-app/open-seo` | Semrush'a para verme, OpenSEO kullan: Semrush ve Ahrefs'in açık kaynak alternatifi; anahtar kelime araştırması, sıralama takibi, backlink analizi, site denetimi, AI sohbetlerinde marka takibi, Claude Code ve Codex için MCP sunucusu ve hazır skill'ler, abonelik yok, Docker veya Cloudflare ile self-hosted | [Repo](https://github.com/every-app/open-seo) | [İzle](https://www.youtube.com/shorts/BLAxgmPrGyw) |  |
+| 140 | `CoreBunch/Instatic` | Webflow'a para verme, Instatic kullan: Webflow, Framer ve WordPress'in açık kaynak alternatifi; sürükle bırak görsel editör, sayfayı kuran AI ajanı, dahili formlar ve roller, sade HTML/CSS çıktı, self-hosted, MIT lisanslı | [Repo](https://github.com/CoreBunch/Instatic) | [İzle](https://www.youtube.com/shorts/k9-Xsn7yojA) |  |
 | 135 | `KnifeLemon/Filee` | Dosya çevirmek için siteye yükleme devri bitti: Ctrl ile sürükle, imleçte açılan menüde formata bırak; 255 format, Office/LibreOffice gerekmez, offline çalışır, toplu dönüştürme ve izlenen klasörler; Windows, Linux, macOS (önizleme) | [Repo](https://github.com/KnifeLemon/Filee) | [İzle](https://www.youtube.com/shorts/Qb75Ud9cCE4) |  |
 | 131 | `DuarteSantos8/openGym` | Spor uygulamasına abonelik ödemeyi bırak: kendi sunucunda çalışan açık kaynak antrenman ve kilo takipçisi; 1.324 animasyonlu egzersiz, hazır gelen ağırlıklar, kas haritası, opsiyonel AI koç, Strong/Hevy/FitNotes'tan veri aktarımı, passkey ile giriş | [Repo](https://github.com/DuarteSantos8/openGym) | [İzle](https://www.youtube.com/shorts/UE_Q1SG0RoI) |  |
 | 114 | `lfnovo/open-notebook` | NotebookLM'in açık kaynak, gizlilik odaklı alternatifi: PDF/YouTube/web/ses içeriğini anlayıp sohbet et, notları çok konuşmacılı podcast'e çevir, tam metin + anlamsal arama, 18+ AI sağlayıcı, self-hosted | [Repo](https://github.com/lfnovo/open-notebook) | [İzle](https://www.youtube.com/shorts/ft4dkfaoy5I) |  |
@@ -257,7 +260,7 @@ _Terminal, Linux, programlama dili ve donanım_
 ## Tüm liste (numaraya göre)
 
 <details>
-<summary>138 reponun tamamını numara sırasıyla göster</summary>
+<summary>141 reponun tamamını numara sırasıyla göster</summary>
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
@@ -399,5 +402,8 @@ _Terminal, Linux, programlama dili ve donanım_
 | 137 | `storytold/lightcraft` | Fotoğraf düzenlemeye abonelik ödeme: Rust ile yazılmış açık kaynak fotoğraf kütüphanesi ve raw düzenleyici; tahribatsız düzenleme, renk mikseri, ton eğrisi, renk çarkları, gökyüzü/konu/arka plan maskeleri, MCP ile AI ajan desteği; hesap, bulut ve abonelik yok; macOS/Windows/Linux ve Web | [Repo](https://github.com/storytold/lightcraft) | [İzle](https://www.youtube.com/shorts/N2nEZDE4KBo) |  |
 | 138 | `elvarofficial/teardown` | Makineyi anlatma, Claude söküp göstersin: her makineyi sökülebilir bir 3D simülatöre çeviriyor; gerçek sayıları gösteren paneller, butonla açılan parçalar, kesit ve kamera görünümleri, kendi kendine tur, 60 FPS video ve otomatik ses; tek offline HTML dosyası | [Repo](https://github.com/elvarofficial/teardown) | [İzle](https://www.youtube.com/shorts/AHvLU6Ct6G0) |  |
 | 139 | `anomalyco/hex` | Konuş, yazsın, yapıştırsın: Mac, Windows ve Linux için yerel sesle yazma uygulaması; tuşa basılı tut, konuş, metin bulunduğun uygulamaya yapışsın; tamamen cihazda çalışır, dikte geçmişi ve kendi kelime listesi, MIT lisanslı | [Repo](https://github.com/anomalyco/hex) | [İzle](https://www.youtube.com/shorts/ES3GtgVVgJM) |  |
+| 140 | `CoreBunch/Instatic` | Webflow'a para verme, Instatic kullan: Webflow, Framer ve WordPress'in açık kaynak alternatifi; sürükle bırak görsel editör, sayfayı kuran AI ajanı, dahili formlar ve roller, sade HTML/CSS çıktı, self-hosted, MIT lisanslı | [Repo](https://github.com/CoreBunch/Instatic) | [İzle](https://www.youtube.com/shorts/k9-Xsn7yojA) |  |
+| 141 | `every-app/open-seo` | Semrush'a para verme, OpenSEO kullan: Semrush ve Ahrefs'in açık kaynak alternatifi; anahtar kelime araştırması, sıralama takibi, backlink analizi, site denetimi, AI sohbetlerinde marka takibi, Claude Code ve Codex için MCP sunucusu ve hazır skill'ler, abonelik yok, Docker veya Cloudflare ile self-hosted | [Repo](https://github.com/every-app/open-seo) | [İzle](https://www.youtube.com/shorts/BLAxgmPrGyw) |  |
+| 142 | `nutlope/hallmark` | Claude Code'un yaptığı siteler hep aynı görünmesin: Claude Code, Codex, Cursor ve OpenCode için tasarım skill'i; 50 hazır tema (renk, yazı tipi, doku), sayfayı isteğe göre baştan kuran düzen, sadece prompttan custom tasarım, gerçek tarayıcıda 8 genişlikte test ve alt ajanla inceleme, içeriği koruyarak redesign, MIT lisanslı | [Repo](https://github.com/nutlope/hallmark) | [İzle](https://www.youtube.com/shorts/u5Ba8d8jR5k) |  |
 
 </details>
