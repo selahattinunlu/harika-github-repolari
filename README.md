@@ -28,7 +28,7 @@ YouTube Shorts oynatma listesi: <https://www.youtube.com/playlist?list=PL0ncE8cD
 - [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (39)
 - [🧠 AI modelleri & local AI](#-ai-modelleri--local-ai) (17)
 - [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (20)
-- [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (15)
+- [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (16)
 - [🎨 UI bileşenleri & web animasyonu](#-ui-bileşenleri--web-animasyonu) (14)
 - [📊 Grafik, 3D & oyun](#-grafik-3d--oyun) (9)
 - [🛠️ Backend, DevOps, test & izleme](#-backend-devops-test--izleme) (16)
@@ -144,6 +144,7 @@ _Video editörleri, kodla video üretimi, müzik, sunum ve tasarım_
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 143 | `0xs4n4tg/papercut-explainer` | Kodlama ajanın artık kağıt kolaj video yapıyor: Claude Code, Codex, Gemini CLI ve Cursor için dikey kağıt kolaj explainer reel üreten 9 skill ve Remotion kütüphanesi; 24 kağıt dekor, 17 kamera hareketi, 10 geçiş, 79 ses efekti ve 8 müzik, yerel Qwen3-TTS seslendirme, MIT lisanslı | [Repo](https://github.com/0xs4n4tg/papercut-explainer) | [İzle](https://www.youtube.com/shorts/DQOyxQi76uQ) |  |
 | 137 | `storytold/lightcraft` | Fotoğraf düzenlemeye abonelik ödeme: Rust ile yazılmış açık kaynak fotoğraf kütüphanesi ve raw düzenleyici; tahribatsız düzenleme, renk mikseri, ton eğrisi, renk çarkları, gökyüzü/konu/arka plan maskeleri, MCP ile AI ajan desteği; hesap, bulut ve abonelik yok; macOS/Windows/Linux ve Web | [Repo](https://github.com/storytold/lightcraft) | [İzle](https://www.youtube.com/shorts/N2nEZDE4KBo) |  |
 | 136 | `debpalash/VoiceStudio` | ElevenLabs'a para verme, sesini kendi bilgisayarında klonla: 3 saniyelik kayıttan ses klonlama, yazıyla ses tasarımı, zamanlamayı koruyan video dublajı, sesli kitap, 646 dil; tamamen local, açık kaynak (AGPL-3.0) | [Repo](https://github.com/debpalash/VoiceStudio) | [İzle](https://www.youtube.com/shorts/BOj-Oe3fqOY) |  |
 | 134 | `storytold/filmcraft` | Premiere'e para verme, FilmCraft kullan: Rust ile sıfırdan yazılmış açık kaynak video editörü; Premiere panelleri ve kısayolları, FFmpeg'siz kendi codec'leri, renk düzenleme ve scope'lar, yayın standardında ses ölçer, MCP ile AI ajan desteği; macOS/Windows/Linux ve tarayıcı; şu an alpha | [Repo](https://github.com/storytold/filmcraft) | [İzle](https://www.youtube.com/shorts/x-SdyIByl-4) |  |
@@ -260,7 +261,7 @@ _Terminal, Linux, programlama dili ve donanım_
 ## Tüm liste (numaraya göre)
 
 <details>
-<summary>141 reponun tamamını numara sırasıyla göster</summary>
+<summary>142 reponun tamamını numara sırasıyla göster</summary>
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
@@ -405,5 +406,6 @@ _Terminal, Linux, programlama dili ve donanım_
 | 140 | `CoreBunch/Instatic` | Webflow'a para verme, Instatic kullan: Webflow, Framer ve WordPress'in açık kaynak alternatifi; sürükle bırak görsel editör, sayfayı kuran AI ajanı, dahili formlar ve roller, sade HTML/CSS çıktı, self-hosted, MIT lisanslı | [Repo](https://github.com/CoreBunch/Instatic) | [İzle](https://www.youtube.com/shorts/k9-Xsn7yojA) |  |
 | 141 | `every-app/open-seo` | Semrush'a para verme, OpenSEO kullan: Semrush ve Ahrefs'in açık kaynak alternatifi; anahtar kelime araştırması, sıralama takibi, backlink analizi, site denetimi, AI sohbetlerinde marka takibi, Claude Code ve Codex için MCP sunucusu ve hazır skill'ler, abonelik yok, Docker veya Cloudflare ile self-hosted | [Repo](https://github.com/every-app/open-seo) | [İzle](https://www.youtube.com/shorts/BLAxgmPrGyw) |  |
 | 142 | `nutlope/hallmark` | Claude Code'un yaptığı siteler hep aynı görünmesin: Claude Code, Codex, Cursor ve OpenCode için tasarım skill'i; 50 hazır tema (renk, yazı tipi, doku), sayfayı isteğe göre baştan kuran düzen, sadece prompttan custom tasarım, gerçek tarayıcıda 8 genişlikte test ve alt ajanla inceleme, içeriği koruyarak redesign, MIT lisanslı | [Repo](https://github.com/nutlope/hallmark) | [İzle](https://www.youtube.com/shorts/u5Ba8d8jR5k) |  |
+| 143 | `0xs4n4tg/papercut-explainer` | Kodlama ajanın artık kağıt kolaj video yapıyor: Claude Code, Codex, Gemini CLI ve Cursor için dikey kağıt kolaj explainer reel üreten 9 skill ve Remotion kütüphanesi; 24 kağıt dekor, 17 kamera hareketi, 10 geçiş, 79 ses efekti ve 8 müzik, yerel Qwen3-TTS seslendirme, MIT lisanslı | [Repo](https://github.com/0xs4n4tg/papercut-explainer) | [İzle](https://www.youtube.com/shorts/DQOyxQi76uQ) |  |
 
 </details>
