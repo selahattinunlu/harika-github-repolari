@@ -27,10 +27,10 @@ YouTube Shorts oynatma listesi: <https://www.youtube.com/playlist?list=PL0ncE8cD
 
 - [🤖 Claude Code, AI ajanları & skill'ler](#-claude-code-ai-ajanları--skilller) (39)
 - [🧠 AI modelleri & local AI](#-ai-modelleri--local-ai) (17)
-- [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (20)
+- [💸 Açık kaynak alternatifler & self-hosted uygulamalar](#-açık-kaynak-alternatifler--self-hosted-uygulamalar) (21)
 - [🎬 Video, ses & tasarım araçları](#-video-ses--tasarım-araçları) (16)
 - [🎨 UI bileşenleri & web animasyonu](#-ui-bileşenleri--web-animasyonu) (14)
-- [📊 Grafik, 3D & oyun](#-grafik-3d--oyun) (9)
+- [📊 Grafik, 3D & oyun](#-grafik-3d--oyun) (10)
 - [🛠️ Backend, DevOps, test & izleme](#-backend-devops-test--izleme) (16)
 - [📚 Öğrenme & kaynak listeleri](#-öğrenme--kaynak-listeleri) (7)
 - [🧩 Diğer](#-diğer) (4)
@@ -115,6 +115,7 @@ _Notion, Jira, Google Photos, DocuSign... yerine ücretsiz ve kendi sunucunda ç
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 145 | `marclou/mailcheap` | beehiiv'e para verme, MailCheap kullan: okumayan aboneye değil gönderilen e-postaya ödenen açık kaynak bülten aracı; self-hosted kurulumda sadece Amazon SES ücreti, beehiiv, Substack ve Mailchimp'ten olduğu gibi içe aktarma, her bültene arama motorlarının bulduğu web sitesi, MCP ile Claude Code, Codex ve Cursor desteği (göndermeden önce sorar), kademeli gönderim ve otomatik liste temizliği, AGPL-3.0 lisanslı | [Repo](https://github.com/marclou/mailcheap) || [İzle](https://www.youtube.com/shorts/vQDfxDe3LBY) |  |
 | 141 | `every-app/open-seo` | Semrush'a para verme, OpenSEO kullan: Semrush ve Ahrefs'in açık kaynak alternatifi; anahtar kelime araştırması, sıralama takibi, backlink analizi, site denetimi, AI sohbetlerinde marka takibi, Claude Code ve Codex için MCP sunucusu ve hazır skill'ler, abonelik yok, Docker veya Cloudflare ile self-hosted | [Repo](https://github.com/every-app/open-seo) | [İzle](https://www.youtube.com/shorts/BLAxgmPrGyw) |  |
 | 140 | `CoreBunch/Instatic` | Webflow'a para verme, Instatic kullan: Webflow, Framer ve WordPress'in açık kaynak alternatifi; sürükle bırak görsel editör, sayfayı kuran AI ajanı, dahili formlar ve roller, sade HTML/CSS çıktı, self-hosted, MIT lisanslı | [Repo](https://github.com/CoreBunch/Instatic) | [İzle](https://www.youtube.com/shorts/k9-Xsn7yojA) |  |
 | 135 | `KnifeLemon/Filee` | Dosya çevirmek için siteye yükleme devri bitti: Ctrl ile sürükle, imleçte açılan menüde formata bırak; 255 format, Office/LibreOffice gerekmez, offline çalışır, toplu dönüştürme ve izlenen klasörler; Windows, Linux, macOS (önizleme) | [Repo](https://github.com/KnifeLemon/Filee) | [İzle](https://www.youtube.com/shorts/Qb75Ud9cCE4) |  |
@@ -192,6 +193,7 @@ _Veri görselleştirme, 3D, 2D çizim ve oyun motorları_
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
+| 144 | `Jakeschincariol/console-skill` | PS2 oyunun artık bilgisayarda gerçek bir program: sahip olduğun PS2 oyunlarını PC'ye taşıyan 11 Claude skill'i; emülatör değil, oyun kodunu C++'a çevirip yerel programa derliyor, grafik, ses, kontrolcü ve kayıt araçları, düz yazıyla mod ekleme (orijinal dosyalara dokunmadan), Windows, Mac, Linux, Steam Deck ve Android için paketleme, ISO/BIOS indirme yok, deneysel, MIT lisanslı | [Repo](https://github.com/Jakeschincariol/console-skill) || [İzle](https://www.youtube.com/shorts/cDLbOmV-4bc) |  |
 | 90 | `samizdatco/skia-canvas` | Node.js tarafında Canvas API ile görsel üretimi yapmanı sağlayan, Skia tabanlı hızlı bir 2D çizim kütüphanesi | [Repo](https://github.com/samizdatco/skia-canvas) | [İzle](https://www.youtube.com/shorts/31KLnrwHPn0) |  |
 | 88 | `godotengine/godot` | 2D ve 3D oyunları tek editör arayüzünden geliştirip farklı platformlara export etmeni sağlayan açık kaynak game engine | [Repo](https://github.com/godotengine/godot) | [İzle](https://www.youtube.com/shorts/SYqMK55ZvrQ) |  |
 | 76 | `recharts/recharts` | React projelerinde line, bar, pie ve area chart gibi grafikler oluşturmanı sağlayan açık kaynak kütüphane | [Repo](https://github.com/recharts/recharts) | [İzle](https://www.youtube.com/shorts/TBoP5k6QFtk) |  |
@@ -261,7 +263,7 @@ _Terminal, Linux, programlama dili ve donanım_
 ## Tüm liste (numaraya göre)
 
 <details>
-<summary>142 reponun tamamını numara sırasıyla göster</summary>
+<summary>144 reponun tamamını numara sırasıyla göster</summary>
 
 | # | Repo | Kısaca ne işe yarıyor? | GitHub | Short | İnceleme |
 |---|---|---|---|---|---|
@@ -407,5 +409,7 @@ _Terminal, Linux, programlama dili ve donanım_
 | 141 | `every-app/open-seo` | Semrush'a para verme, OpenSEO kullan: Semrush ve Ahrefs'in açık kaynak alternatifi; anahtar kelime araştırması, sıralama takibi, backlink analizi, site denetimi, AI sohbetlerinde marka takibi, Claude Code ve Codex için MCP sunucusu ve hazır skill'ler, abonelik yok, Docker veya Cloudflare ile self-hosted | [Repo](https://github.com/every-app/open-seo) | [İzle](https://www.youtube.com/shorts/BLAxgmPrGyw) |  |
 | 142 | `nutlope/hallmark` | Claude Code'un yaptığı siteler hep aynı görünmesin: Claude Code, Codex, Cursor ve OpenCode için tasarım skill'i; 50 hazır tema (renk, yazı tipi, doku), sayfayı isteğe göre baştan kuran düzen, sadece prompttan custom tasarım, gerçek tarayıcıda 8 genişlikte test ve alt ajanla inceleme, içeriği koruyarak redesign, MIT lisanslı | [Repo](https://github.com/nutlope/hallmark) | [İzle](https://www.youtube.com/shorts/u5Ba8d8jR5k) |  |
 | 143 | `0xs4n4tg/papercut-explainer` | Kodlama ajanın artık kağıt kolaj video yapıyor: Claude Code, Codex, Gemini CLI ve Cursor için dikey kağıt kolaj explainer reel üreten 9 skill ve Remotion kütüphanesi; 24 kağıt dekor, 17 kamera hareketi, 10 geçiş, 79 ses efekti ve 8 müzik, yerel Qwen3-TTS seslendirme, MIT lisanslı | [Repo](https://github.com/0xs4n4tg/papercut-explainer) | [İzle](https://www.youtube.com/shorts/DQOyxQi76uQ) |  |
+| 144 | `Jakeschincariol/console-skill` | PS2 oyunun artık bilgisayarda gerçek bir program: sahip olduğun PS2 oyunlarını PC'ye taşıyan 11 Claude skill'i; emülatör değil, oyun kodunu C++'a çevirip yerel programa derliyor, grafik, ses, kontrolcü ve kayıt araçları, düz yazıyla mod ekleme (orijinal dosyalara dokunmadan), Windows, Mac, Linux, Steam Deck ve Android için paketleme, ISO/BIOS indirme yok, deneysel, MIT lisanslı | [Repo](https://github.com/Jakeschincariol/console-skill) || [İzle](https://www.youtube.com/shorts/cDLbOmV-4bc) |  |
+| 145 | `marclou/mailcheap` | beehiiv'e para verme, MailCheap kullan: okumayan aboneye değil gönderilen e-postaya ödenen açık kaynak bülten aracı; self-hosted kurulumda sadece Amazon SES ücreti, beehiiv, Substack ve Mailchimp'ten olduğu gibi içe aktarma, her bültene arama motorlarının bulduğu web sitesi, MCP ile Claude Code, Codex ve Cursor desteği (göndermeden önce sorar), kademeli gönderim ve otomatik liste temizliği, AGPL-3.0 lisanslı | [Repo](https://github.com/marclou/mailcheap) || [İzle](https://www.youtube.com/shorts/vQDfxDe3LBY) |  |
 
 </details>
